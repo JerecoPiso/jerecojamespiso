@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jerecojamespiso/static/css/main.00458635.css",
-    "main.js": "/jerecojamespiso/static/js/main.ea1e02d7.js",
+    "main.css": "/jerecojamespiso/static/css/main.dcb7dfe7.css",
+    "main.js": "/jerecojamespiso/static/js/main.fdb257ca.js",
     "static/js/787.1ed0c42c.chunk.js": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js",
     "static/media/desktop.jpg": "/jerecojamespiso/static/media/desktop.4ea00d7424c3db748fda.jpg",
     "static/media/realstate.png": "/jerecojamespiso/static/media/realstate.d0039280c8adef274ebe.png",
@@ -9,12 +9,12 @@
     "static/media/codeunity.png": "/jerecojamespiso/static/media/codeunity.9739628d4c92b3afd811.png",
     "static/media/profile.png": "/jerecojamespiso/static/media/profile.368e4469ec1f3633ea88.png",
     "index.html": "/jerecojamespiso/index.html",
-    "main.00458635.css.map": "/jerecojamespiso/static/css/main.00458635.css.map",
-    "main.ea1e02d7.js.map": "/jerecojamespiso/static/js/main.ea1e02d7.js.map",
+    "main.dcb7dfe7.css.map": "/jerecojamespiso/static/css/main.dcb7dfe7.css.map",
+    "main.fdb257ca.js.map": "/jerecojamespiso/static/js/main.fdb257ca.js.map",
     "787.1ed0c42c.chunk.js.map": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.00458635.css",
-    "static/js/main.ea1e02d7.js"
+    "static/css/main.dcb7dfe7.css",
+    "static/js/main.fdb257ca.js"
   ]
 }
