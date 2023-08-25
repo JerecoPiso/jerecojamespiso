@@ -1,0 +1,32 @@
+import * as solidIcons from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Slide, Bounce } from "react-awesome-reveal";
+export default function Aboutme() {
+    return (
+        <div className='bg-gray-700 pt-10 pb-16 pl-16 pr-16' id='aboutme'>
+            <p className='text-white text-center text-3xl font-semibold relative content-title pb-4'>ABOUT ME</p>
+            <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 xl:px-10 lg:px-10 md:px-10 px-5 mt-10'>
+                <div className='col-span-1 xl:text-left lg:text-left md:text-left text-center'>
+                    <Slide triggerOnce={true} direction={'left'}>
+                        <p className='text-2xl font-semibold text-gray-300 tracking-wide'>GET TO KNOW ME</p>
+                        <p className='text-md mt-2 text-gray-300 tracking-wide'>Hey, I'm Jereco James Piso an junior programmer with a passion for creating functional and visually appealing applications. I have a few years of experience in programming, which has allowed me to hone my skills and tackle more complex projects.</p>
+                        <p><FontAwesomeIcon className='mt-3' icon={solidIcons.faEnvelope} size="lg" color='#F1F6F9' /><span className='ml-3 text-gray-300 tracking-wide'>jamesjerecopiso@gmail.com</span></p>
+                        <p><FontAwesomeIcon className='mt-3 ' icon={solidIcons.faPhone} size="lg" color='#F1F6F9' /><span className='ml-3 text-gray-300 tracking-wide'>09518227186</span> </p>
+                    </Slide>
+                </div>
+                <div className='col-span-1 xl:order-none lg:order-none md:order-none -order-1 flex items-center justify-center'>
+                    <Bounce triggerOnce={true} duration={1000}>
+                        <img src={require("../assets/profile.png")} className='rounded-full h-56 w-56' alt='Avatar'></img>
+                    </Bounce>
+                </div>
+                <div className='col-span-1 xl:text-left lg:text-left md:text-left text-center'>
+                    <Slide triggerOnce={true} direction={'right'}>
+                        <p className='text-2xl font-semibold text-gray-300 tracking-wide'>SERVICES OFFERED</p>
+                        <p className='text-md text-gray-300 tracking-wide mt-2'>My primary area of expertise revolves around web development, but I also extend my services to include Android and Desktop application development.</p>
+                        <button type='button' className='bg-gray-800 px-5 py-2 text-gray-300 rounded-md mt-3'>DOWNLOAD CV</button>
+                    </Slide>
+                </div>
+            </div>
+        </div>
+    )
+}
