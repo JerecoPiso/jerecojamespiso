@@ -33,10 +33,10 @@ export default function Home() {
                     <Bounce className={`xl:flex lg:flex md:flex xl:static lg:static md:static fixed left-0 w-full top-0 xl:bg-transparent lg:bg-transparent md:bg-transparent bg-gray-800 ${isHidden ? 'hidden' : ''} h-auto`}>
                         <ul className='flex xl:flex-row lg:flex-row md:flex-row flex-col xl:pt-0 lg:pt-0 md:pt-0 pt-5 items-center justify-center'>
                             <li className="p-4"><Link to='home' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">HOME</Link></li>
-                            <li className="p-4"><Link to='portfolio' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">PORTFOLIOS</Link></li>
+                            <li className="p-4"><Link to='portfolio' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">PORTFOLIO</Link></li>
                             <li className="p-4"><Link to='skills' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">SKILLS</Link></li>
                             <li className="p-4"><Link to='contact' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">CONTACT</Link></li>
-                            <li className="p-4"><Link to='aboutme' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">ABOUT</Link></li>
+                            <li className="p-4"><Link to='aboutme' spy={true} smooth={true} offset={-70} duration={500} className="cursor-pointer text-white tracking-wide">ABOUT ME</Link></li>
                         </ul>
                     </Bounce>
                     <button type='button' onClick={toggleHidden} className='xl:hidden lg:hidden md:hidden block'><Bounce id='logo' ><FontAwesomeIcon icon={isHidden ? solidIcons.faNavicon : solidIcons.faX} size="2x" color='#F1F6F9' /></Bounce></button>
