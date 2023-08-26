@@ -33,7 +33,7 @@ export default function Skills() {
                     </Zoom>
                 </div>
             </div>
-            <p className='text-white text-center text-xl font-semibold relative content-title pb-4'>TECHNOLOGY STACK</p>
+            {/* <p className='text-white text-center text-xl font-semibold relative content-title pb-4'>TECHNOLOGY STACK</p> */}
             <div className='flex flex-wrap justify-center'>
                 <div className='flex flex-wrap justify-center gap-4 mt-10 xl:w-4/6 lg:w-4/6 md:w-5/6 w-full'>
                     <div className='w-36 flex flex-col justify-center items-center py-2 hover:scale-125 duration-1000'>
