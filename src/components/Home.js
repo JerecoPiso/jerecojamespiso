@@ -9,7 +9,6 @@ export default function Home() {
         setIsHidden(prevIsHidden => !prevIsHidden);
     };
     const [scrolled, setScrolled] = useState(false);
-
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY >= 50) {
@@ -18,9 +17,7 @@ export default function Home() {
                 setScrolled(false);
             }
         };
-
         window.addEventListener('scroll', handleScroll);
-
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };

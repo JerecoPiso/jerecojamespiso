@@ -1,9 +1,9 @@
 import { Fade } from "react-awesome-reveal";
 export default function Portfolios() {
     return (
-        <div className='bg-gray-800 p-10' id="portfolio">
+        <div className='bg-gray-800 xl:p-16 lg:p-16 md:p-14 p-10' id="portfolio">
             <p className='text-white text-center text-3xl font-semibold relative content-title pb-4'>PORTFOLIO</p>
-            <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-10 xl:px-10 lg:px-10 md:px-10 px-5 py-12'>
+            <div className='grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 gap-10 py-10'>
                 <div className='col-span-1'>
                     <Fade delay={300} triggerOnce={true}>
                         <div className='relative h-[25rem]'>

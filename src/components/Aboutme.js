@@ -3,10 +3,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Slide, Bounce } from "react-awesome-reveal";
 export default function Aboutme() {
     return (
-        <div className='bg-gray-700 pt-10 pb-16 pl-16 pr-16' id='aboutme'>
+        <div className='bg-gray-700 xl:p-16 lg:p-16 md:p-14 p-10' id='aboutme'>
             <p className='text-white text-center text-3xl font-semibold relative content-title pb-4'>ABOUT ME</p>
-            <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 xl:px-10 lg:px-10 md:px-10 px-5 mt-10'>
-                <div className='col-span-1 xl:text-left lg:text-left md:text-left text-center'>
+            <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mt-10'>
+                <div className='col-span-1 xl:text-left lg:text-left md:text-left'>
                     <Slide triggerOnce={true} direction={'left'}>
                         <p className='text-2xl font-semibold text-gray-300 tracking-wide'>GET TO KNOW ME</p>
                         <p className='text-md mt-2 text-gray-300 tracking-wide'>Hey, I'm Jereco James Piso an junior programmer with a passion for creating functional and visually appealing applications. I have a few years of experience in programming, which has allowed me to hone my skills and tackle more complex projects.</p>
@@ -19,7 +19,7 @@ export default function Aboutme() {
                         <img src={require("../assets/profile.png")} className='rounded-full h-56 w-56' alt='Avatar'></img>
                     </Bounce>
                 </div>
-                <div className='col-span-1 xl:text-left lg:text-left md:text-left text-center'>
+                <div className='col-span-1 xl:text-left lg:text-left md:text-left'>
                     <Slide triggerOnce={true} direction={'right'}>
                         <p className='text-2xl font-semibold text-gray-300 tracking-wide'>SERVICES OFFERED</p>
                         <p className='text-md text-gray-300 tracking-wide mt-2'>My primary area of expertise revolves around web development, but I also extend my services to include Android and Desktop application development.</p>
