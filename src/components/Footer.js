@@ -10,7 +10,7 @@ export default function Footer() {
                 <FontAwesomeIcon style={{ marginRight: 25 }} icon={brandIcons.faTwitter} size="2x" color='#F1F6F9' />
                 <FontAwesomeIcon style={{ marginRight: 25 }} icon={brandIcons.faYoutube} size="2x" color='#F1F6F9' />
             </div>
-            <p className="text-white mt-5 tracking-wide">@ Copyright {currentYear}. Made by Jereco James Piso</p>
+            <p className="text-white mt-5 tracking-wide text-sm">@ Copyright {currentYear}. Made by Jereco James Piso</p>
         </div>
     )
 }
