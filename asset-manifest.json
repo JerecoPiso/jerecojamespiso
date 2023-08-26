@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jerecojamespiso/static/css/main.7c30e4c5.css",
-    "main.js": "/jerecojamespiso/static/js/main.47e941cf.js",
+    "main.js": "/jerecojamespiso/static/js/main.31023342.js",
     "static/js/787.1ed0c42c.chunk.js": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js",
     "static/media/desktop.jpg": "/jerecojamespiso/static/media/desktop.4ea00d7424c3db748fda.jpg",
     "static/media/realstate.png": "/jerecojamespiso/static/media/realstate.d0039280c8adef274ebe.png",
@@ -10,11 +10,11 @@
     "static/media/profile.png": "/jerecojamespiso/static/media/profile.368e4469ec1f3633ea88.png",
     "index.html": "/jerecojamespiso/index.html",
     "main.7c30e4c5.css.map": "/jerecojamespiso/static/css/main.7c30e4c5.css.map",
-    "main.47e941cf.js.map": "/jerecojamespiso/static/js/main.47e941cf.js.map",
+    "main.31023342.js.map": "/jerecojamespiso/static/js/main.31023342.js.map",
     "787.1ed0c42c.chunk.js.map": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c30e4c5.css",
-    "static/js/main.47e941cf.js"
+    "static/js/main.31023342.js"
   ]
 }
