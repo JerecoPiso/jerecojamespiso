@@ -4,7 +4,7 @@ import { Slide, Bounce } from "react-awesome-reveal";
 export default function Aboutme() {
     return (
         <div className='bg-gray-700 xl:p-16 lg:p-16 md:p-14 p-10' id='aboutme'>
-            <p className='text-white text-center text-3xl font-semibold relative content-title pb-4 -mt-8'>ABOUT ME</p>
+            <p className='text-white text-center text-3xl font-semibold relative content-title pb-4 xl:-mt-7 lg:-mt-7 md:-mt-5 -mt-1'>ABOUT ME</p>
             <div className='grid xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-12 mt-10'>
                 <div className='col-span-1 xl:text-left lg:text-left md:text-left'>
                     <Slide triggerOnce={true} direction={'left'}>
