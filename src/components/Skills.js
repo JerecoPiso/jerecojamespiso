@@ -96,6 +96,7 @@ export default function Skills() {
                             <p className='mt-1 text-gray-200'>Github</p>
                         </Zoom>
                     </div>
+
                 </div>
             </div>
         </div>
