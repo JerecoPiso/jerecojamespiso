@@ -1,20 +1,23 @@
 {
   "files": {
     "main.css": "/jerecojamespiso/static/css/main.9838edb4.css",
-    "main.js": "/jerecojamespiso/static/js/main.2207c7b2.js",
+    "main.js": "/jerecojamespiso/static/js/main.86dd0489.js",
     "static/js/787.1ed0c42c.chunk.js": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js",
     "static/media/desktop.jpg": "/jerecojamespiso/static/media/desktop.4ea00d7424c3db748fda.jpg",
+    "static/media/visitleyte.png": "/jerecojamespiso/static/media/visitleyte.10db1afa5da1467c5354.png",
     "static/media/techworld.png": "/jerecojamespiso/static/media/techworld.c178b0d098c71c0440a5.png",
+    "static/media/elearning.png": "/jerecojamespiso/static/media/elearning.1002253964e42088446f.png",
     "static/media/realstate.png": "/jerecojamespiso/static/media/realstate.adb375ab05e4d021c9f0.png",
     "static/media/codeunity.png": "/jerecojamespiso/static/media/codeunity.9739628d4c92b3afd811.png",
+    "static/media/emr.png": "/jerecojamespiso/static/media/emr.df7d2f9ea9c2bbf9837a.png",
     "static/media/profile.png": "/jerecojamespiso/static/media/profile.368e4469ec1f3633ea88.png",
     "index.html": "/jerecojamespiso/index.html",
     "main.9838edb4.css.map": "/jerecojamespiso/static/css/main.9838edb4.css.map",
-    "main.2207c7b2.js.map": "/jerecojamespiso/static/js/main.2207c7b2.js.map",
+    "main.86dd0489.js.map": "/jerecojamespiso/static/js/main.86dd0489.js.map",
     "787.1ed0c42c.chunk.js.map": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9838edb4.css",
-    "static/js/main.2207c7b2.js"
+    "static/js/main.86dd0489.js"
   ]
 }
