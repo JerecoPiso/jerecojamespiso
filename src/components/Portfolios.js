@@ -3,6 +3,8 @@ export default function Portfolios() {
     const websitePreview = (app) => {
         if(app === "realstate"){
             window.location.href = "https://realstator.vercel.app/";
+        }else if(app === "chatterbox"){
+            window.location.href = "https://chatterbox-bice.vercel.app/";
         }else{
             window.location.href = "https://visit-leyte.vercel.app/";
         }
@@ -136,6 +138,28 @@ export default function Portfolios() {
                                 <p className='text-gray-300 text-2xl tracking-wider'>Codeunity</p>
                                 <p className="text-gray-400 text-sm tracking-wider">A platform designed for uploading programming projects and inquiring about them through questions.</p>
                                 <button type="button" onClick={() => githubPreview('codeUnity/tree/codeunity')} className="btnShadow poppins mb-3 text-gray-400 text-sm border border-gray-800 px-3 py-2 rounded-md mt-2 tracking-wider">VIEW ON GITHUB</button>
+                            </div>
+                        </div>
+                    </Fade>
+                </div>
+                  <div className='col-span-1'>
+                    <Fade delay={700} triggerOnce={true}>
+                        <div className='relative group flex flex-col min:h-[30rem] h-auto overflow-hidden rounded-md'>
+                            <Roll className='absolute hidden group-hover:block top-0 z-10 h-full w-full bg-card' duration={500}>
+                                <div className="flex flex-col items-center justify-center  h-full">
+                                    <p className="text-white tracking-wider p-3">
+                                        <span className="px-4 py-2 rounded-full border text-gray-200 border-gray-300 text-sm mr-2">VueJs</span>
+                                        <span className="px-4 py-2 rounded-full border text-gray-200 border-gray-300 text-sm mr-2">Gemini AI</span>
+
+                                    </p>
+
+                                </div>
+                            </Roll>
+                            <img className='group-hover:transform group-hover:scale-125 duration-1000 h-[20rem] w-full' src={require("../assets/chatterbox.png")} alt='Codeunity' />
+                            <div className='min-h-[10rem] z-20 bottom-0 w-full bg-gray-900 px-5 py-3'>
+                                <p className='text-gray-300 text-2xl tracking-wider'>Chatterbox Bice</p>
+                                <p className="text-gray-400 text-sm tracking-wider">Chatterbox Bice AI is your intelligent, always-on conversation partner — blending the power of advanced AI with natural, human-like dialogue. Whether you're looking for instant answers, creative brainstorming, or just someone to talk to, Bice is here to chat, assist, and inspire.</p>
+                                <button type="button" onClick={() => websitePreview('chatterbox')} className="btnShadow poppins mb-3 text-gray-400 text-sm border border-gray-800 px-3 py-2 rounded-md mt-2 tracking-wider">WEBSITE PREVIEW</button>
                             </div>
                         </div>
                     </Fade>
