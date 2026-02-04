@@ -96,7 +96,12 @@ export default function Skills() {
                             <p className='mt-1 text-gray-200'>Github</p>
                         </Zoom>
                     </div>
-
+                    <div className='w-36 flex flex-col justify-center items-center hover:scale-125 duration-1000'>
+                        <Zoom delay={1000} triggerOnce={true}>
+                            <FontAwesomeIcon icon={brandIcons.faDocker} size="4x" color='#F1F6F9' />
+                            <p className='mt-1 text-gray-200'>Docker</p>
+                        </Zoom>
+                    </div>
                 </div>
             </div>
         </div>
