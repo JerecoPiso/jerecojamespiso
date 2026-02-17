@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jerecojamespiso/static/css/main.9838edb4.css",
-    "main.js": "/jerecojamespiso/static/js/main.fb26367b.js",
+    "main.js": "/jerecojamespiso/static/js/main.1e68137c.js",
     "static/js/787.1ed0c42c.chunk.js": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js",
     "static/media/desktop.jpg": "/jerecojamespiso/static/media/desktop.4ea00d7424c3db748fda.jpg",
     "static/media/visitleyte.png": "/jerecojamespiso/static/media/visitleyte.10db1afa5da1467c5354.png",
@@ -15,11 +15,11 @@
     "static/media/profile.png": "/jerecojamespiso/static/media/profile.368e4469ec1f3633ea88.png",
     "index.html": "/jerecojamespiso/index.html",
     "main.9838edb4.css.map": "/jerecojamespiso/static/css/main.9838edb4.css.map",
-    "main.fb26367b.js.map": "/jerecojamespiso/static/js/main.fb26367b.js.map",
+    "main.1e68137c.js.map": "/jerecojamespiso/static/js/main.1e68137c.js.map",
     "787.1ed0c42c.chunk.js.map": "/jerecojamespiso/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9838edb4.css",
-    "static/js/main.fb26367b.js"
+    "static/js/main.1e68137c.js"
   ]
 }
